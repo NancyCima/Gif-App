@@ -1,27 +1,65 @@
-# BuscadorGifs
+# GIF Search App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+Una aplicación web para buscar y explorar GIFs divertidos y populares utilizando la API de Giphy.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Búsqueda rápida de GIFs en tiempo real.
+- Muestra resultados en formato grid.
+- Interfaz amigable y responsiva.
+- Copia y comparte enlaces de GIFs directamente.
 
-## Code scaffolding
+## Tecnologías Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework de desarrollo web.
+- **Giphy API**: Servicio para buscar y obtener GIFs.
+- **Bootstrap**: Framework de CSS para una interfaz responsiva y moderna.
 
-## Build
+## Requisitos Previos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Asegúrate de tener instalado lo siguiente en tu entorno:
 
-## Running unit tests
+- Node.js
+- Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+Sigue estos pasos para configurar el proyecto localmente:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clona este repositorio:
 
-## Further help
+   `` git clone https://github.com/tu-usuario/gif-search-app.git ``
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2. Navega al directorio del proyecto:
+   
+   ``cd gif-app``
+  
+3. Instala las dependencias:
+   
+   ``npm install``
+
+4. Inicia el servidor de desarrollo:
+   
+   ``ng serve``
+
+5. Abre la aplicación en tu navegador en `http://localhost:4200`.
+
+
+## Uso
+
+Ingresa una palabra clave en el buscador para obtener GIFs relacionados.
+Los resultados aparecerán en un grid de GIFs.
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza los cambios y haz commit (`git commit -m 'Agrega nueva funcionalidad'`).
+4. Sube los cambios a tu repositorio (`git push origin feature/nueva-funcionalidad`).
+5. Crea un pull request para revisar tus cambios.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
